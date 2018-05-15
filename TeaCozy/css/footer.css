@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  height: 200px;
+  width: auto;
+  background: black;
+  flex-direction: column;
+}
+
+.contactInfo{
+  font-weight: bold;
+  margin: 0px 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.copyright {
+  align-self: flex-start;
+  margin-left: 20px;
+}

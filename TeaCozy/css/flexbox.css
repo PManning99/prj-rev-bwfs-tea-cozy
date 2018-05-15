@@ -1,0 +1,70 @@
+/*General formatting code.*/
+.mainbody{
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*Top row formatting code starts here.*/
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 700px;
+  background: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+/*Center row formatting code starts here.*/
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 700px;
+  margin: 50px;
+}
+
+.top_row, .bottom_row{
+  display: flex;
+  flex-direction: row;
+}
+
+.fallberry, .spicedrum, .donuts,
+.myrtletea, .bizarretea{
+  padding: 10px 15px;
+}
+
+/*Bottom formatting code starts here.*/
+.bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  background: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.locations{
+  display: flex;
+  flex-direction: row;
+}
+
+.downtown, .bayside, .oakdale{
+  margin: 15px 20px;
+  width: 295px;
+  height: auto;
+  opacity: 1;
+  background-color: black;
+  padding: 5px;
+}
